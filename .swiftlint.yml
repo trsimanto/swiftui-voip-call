@@ -1,0 +1,42 @@
+included:
+  - App
+  - AppTests
+  - Packages/CallCore/Sources
+  - Packages/CallCore/Tests
+
+excluded:
+  - Packages/CallCore/.build
+
+opt_in_rules:
+  - closure_spacing
+  - empty_count
+  - explicit_init
+  - first_where
+  - modifier_order
+  - operator_usage_whitespace
+  - private_action
+  - redundant_nil_coalescing
+  - sorted_first_last
+  - toggle_bool
+  - unneeded_parentheses_in_closure_argument
+
+disabled_rules:
+  - todo
+  - nesting
+
+identifier_name:
+  excluded: [id, h, c, ok]
+
+line_length:
+  warning: 140
+  error: 180
+  ignores_comments: true
+
+type_body_length:
+  warning: 400
+
+file_length:
+  warning: 600
+
+function_body_length:
+  warning: 60

@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# The Xcode project is produced by XcodeGen from project.yml
+*.xcodeproj
+*.xcworkspace
+
+# Xcode user state and build output
+xcuserdata/
+DerivedData/
+build/
+*.xcresult
+xcodebuild.log
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Code coverage / profiling
+*.profdata
+*.gcda
+*.gcno
+
+# Fastlane leftovers, if ever added
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
